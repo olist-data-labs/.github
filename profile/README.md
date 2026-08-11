@@ -20,11 +20,21 @@
 
 ---
 
-## 📌 Sobre o Projeto
+## 📌 Sobre o Projeto & Contexto Empresarial
 
-O **Olist Data Labs** foi concebido para simular uma arquitetura corporativa moderna de solução de Big Data e Inteligência Artificial. 
+O **Olist Data Labs** foi concebido para simular uma arquitetura corporativa moderna de solução de Big Data e Inteligência Artificial baseada em uma operação real de e-commerce.
 
-A plataforma realiza a ingestão e tratamento de dados brutos de logística de e-commerce, processa estatísticas avançadas e fornece um **modelo preditivo de Machine Learning** capaz de prever **riscos e probabilidades de atraso nas entregas** em tempo real.
+### 🏢 A Empresa Real: Olist
+A **Olist** é uma *unicorn startup* brasileira que atua como um ecossistema de soluções para e-commerce. O seu principal produto funciona como um **integrador de marketplace**: ela conecta pequenos e médios lojistas (*sellers*) aos maiores canais de venda do país (Mercado Livre, Amazon, Magalu, Casas Bahia, etc.), centralizando a gestão de estoque, pedidos e toda a operação de **logística e envio**.
+
+### 📊 O Dataset Público da Olist
+Utilizamos o dataset público da Olist contendo mais de **100.000 pedidos reais** realizados no e-commerce brasileiro entre 2016 e 2018. A base de dados engloba múltiplos pontos de contato da jornada do consumidor:
+* **Logística:** Status de pedidos, datas estimadas vs. datas reais de entrega, peso e localização (CEPs).
+* **Financeiro:** Valores de frete, preço de produtos e meios de pagamento.
+* **Experiência do Cliente:** Avaliações, notas (*review scores*) e comentários dos compradores.
+
+### 🎯 Nosso Objetivo Tecnológico
+A partir desse volume de dados real, a nossa plataforma realiza a **ingestão, modelagem e tratamento (ETL)**, processa métricas para **Análise Exploratória (AED)** e disponibiliza um **modelo preditivo de Machine Learning** capaz de prever em tempo real o **risco de atraso logístico e a probabilidade de insatisfação do cliente**.
 
 ---
 
