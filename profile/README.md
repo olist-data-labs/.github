@@ -40,11 +40,11 @@ O ecossistema é dividido de forma **desacoplada e modular em 3 camadas**:
                                       │ 1. Requisições REST / JSON
                                       ▼
  ┌─────────────────────────────────────────────────────────────────────────┐
- │                        ⚡ olist-backend (Node.js/TS)                    │
+ │                        ⚡ olist-backend (Node.js/TS)                     │
  └──────────────┬──────────────────────────────────────────┬───────────────┘
                 │                                          │
                 │ 2. Salva / Consulta                      │ 3. Executa Predição
                 ▼                                          ▼
  ┌──────────────────────────────┐          ┌──────────────────────────────┐
- │ 🐘 PostgreSQL (Docker)      │          │ 🧠 olist-ai-service (Python) │
+ │ 🐘 PostgreSQL (Docker)       │          │ 🧠 olist-ai-service (Python) │
  └──────────────────────────────┘          └──────────────────────────────┘
